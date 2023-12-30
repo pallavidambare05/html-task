@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Form Website</title>
+        <link rel="stylesheet" href="task3.css">
+    
+    </head>
+    <body>
+    
+        <header>
+            <h1>Your Name</h1>
+            <p>Brief introduction about yourself</p>
+            
+        </header>
+    
+        <main>
+            <h4>Skills</h4>
+            <form>
+                <label for="skills"></label>
+                <input type="text" id="skills" name="skills" placeholder="Add your skills">
+            </form>
+    
+            <h4>Project</h4>
+            <fieldset>
+                <form action="action.php">
+                    <label for="projectName">Project Name</label>
+                    <input type="text" id="projectName" name="projectName" placeholder="Project description goes here">
+                </form>
+            </fieldset>
+        </main>
+    
+
+        <div class="centered-form">
+            <h4>Contact</h4>
+            <form>
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+    
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="Your email">
+    
+                <label for="message"></label>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="your message"></textarea>
+    
+                <input type="submit" value="Send Message">
+            </form>
+        
+        </div>
+    
+    </body>
+    </html>
